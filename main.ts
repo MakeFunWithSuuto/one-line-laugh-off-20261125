@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  'My realtor promised the house had "good bones," and the police agree—they just want to know whose.';
+  "I started leaving myself encouraging sticky notes, until one of them corrected my grammar.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
