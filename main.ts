@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "I put a peephole in my glass door so visitors know it's personal.";
+  "I put in a peephole so visitors can watch me ignore them; the hard part was drilling the glass.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
